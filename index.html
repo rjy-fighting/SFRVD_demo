@@ -97,7 +97,7 @@
       justify-content: center;
     }
   </style>
-  <title>SFRVD</title>
+  <title>S3RVD</title>
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -136,21 +136,51 @@
                 <div class="example_info_title-wrapper">
                   <br>
                   <br>
-                  <h1>Spatial-Frequency Synergized State-Space Modeling for Raw Video Demoiréing</h1>
+                  <h1>S<sup>3</sup>RVD: Spectrum-Guided State-Space Modeling for Raw Video Demoiréing</h1>
                   <br>
                   <!-- 出版期刊 -->
                   <h2> </h2>
 
                   <!-- 作者信息 -->
                   <div class="author-box">
-                    
+                    <div>
+                      <strong>Junying Ren</strong>
+                      Tianjin University, Tianjin, China<br>
+                      <a href="mailto:rjy_900420@tju.edu.cn">rjy_900420@tju.edu.cn</a>
+                    </div>
+                    <div>
+                      <strong>Qirui Yang</strong>
+                      Tianjin University, Tianjin, China<br>
+                      <a href="mailto:yangqirui@tju.edu.cn">yangqirui@tju.edu.cn</a>
+                    </div>
+                    <div>
+                      <strong>Fangpu Zhang</strong>
+                      Tianjin University, Tianjin, China<br>
+                      <a href="mailto:zhangfp@tju.edu.cn">zhangfp@tju.edu.cn</a>
+                    </div>
+                    <div>
+                      <strong>Huanjing Yue</strong>
+                      Tianjin University, Tianjin, China<br>
+                      <a href="mailto:huanjing.yue@tju.edu.cn">huanjing.yue@tju.edu.cn</a>
+                    </div>
+                    <div>
+                      <strong>Jingyu Yang</strong> (Corresponding author)<br>
+                      Tianjin University, Tianjin, China<br>
+                      <a href="mailto:yjy@tju.edu.cn">yjy@tju.edu.cn</a>
+                    </div>
                   </div>
                   <!-- /作者信息 -->
 
                   <!-- 摘要框 -->
                   <div class="abstract-box">
                     <strong>Abstract</strong>
-                    
+                    Moiré patterns caused by frequency aliasing between digital displays and camera sensors severely degrade video quality. 
+                    Compared with image demoiréing, video demoiréing is more challenging due to temporally inconsistent moiré degradations, which make neighboring frames unreliable references and easily lead to temporally inconsistent restoration. 
+                    Existing video demoiréing methods mainly improve temporal stability by aggregating adjacent frames, but they remain limited by unreliable inter-frame cues and the spatial entanglement of moiré artifacts with image structures and fine details. 
+                    To address these challenges, we propose the spectrum-guided state-space modeling for raw video demoiréing (S<sup>3</sup>RVD), which combines spectrum-guided moiré discrimination with spatial-temporal state-space modeling, enabling reliable temporal cues selection while suppressing spatially entangled moiré without explicit spatial separation. 
+                    In the high-frequency branch, the Spectrum-Modulation Spatial Temporal (SMST) group integrates direction-aware spatial-temporal scanning with spectrum-guided modulation, allowing reliable spatial-temporal detail cues to be selectively propagated while suppressing temporally unstable moiré interference. 
+                    In the low-frequency branch, the Multi-Scale Spatial Temporal (MSST) group captures multi-scale local interactions to suppress moiré disturbances entangled with structures and preserve structural consistency. 
+                    Extensive experiments demonstrate that our S<sup>3</sup>RVD achieves state-of-the-art quantitative and qualitative performance in video demoiréing, delivering effective moiré suppression and strong temporal consistency.
                   </div>
                   <!-- /摘要框 -->
                 </div>
@@ -176,7 +206,7 @@
           <div class="example_component">
             <div class="example_info_wrapper">
               <div class="example_info_title-wrapper">
-                <h3>Comparison of SFRVD with other methods on video datasets</h3>
+                <h3>Comparison of S<sup>3</sup>RVD with other methods on video datasets</h3>
               </div>
             </div>
 
@@ -278,7 +308,7 @@
 
               <div class="example_info_wrapper">
                 <div class="example_info_title-wrapper">
-                  <h3>Comparison of SFRVD with other methods on RawVDemoiré dataset</h3>
+                  <h3>Comparison of S<sup>3</sup>RVD with other methods on RawVDemoiré dataset</h3>
                 </div>
               </div>
               
@@ -848,7 +878,7 @@
 
                 <div class="example_info_wrapper">
                   <div class="example_info_title-wrapper">
-                    <h3>Comparison of SFRVD with other methods on TMM22 dataset</h3>
+                    <h3>Comparison of S<sup>3</sup>RVD with other methods on TMM22 dataset</h3>
                   </div>
                 </div>
 
@@ -856,7 +886,7 @@
                   <div class="example_wrapper is-1" style="margin-left: 10px;">
                     <div class="example_title_wrapper">
                       <div class="text-style-example-title">
-                        <h6>RawVDemoire</h6>
+                        <h6>RawVDemoiré</h6>
                       </div>
                       <div class="text-style-example-title">
                         <h6>Ours</h6>
@@ -923,7 +953,7 @@
                   <div class="example_wrapper is-1" style="margin-left: 10px;">
                     <div class="example_title_wrapper">
                       <div class="text-style-example-title">
-                        <h6>RawVDemoire</h6>
+                        <h6>RawVDemoiré</h6>
                       </div>
                       <div class="text-style-example-title">
                         <h6>Ours</h6>
@@ -993,7 +1023,7 @@
                   <div class="example_wrapper is-1" style="margin-left: 10px;">
                     <div class="example_title_wrapper">
                       <div class="text-style-example-title">
-                        <h6>RawVDemoire</h6>
+                        <h6>RawVDemoiré</h6>
                       </div>
                       <div class="text-style-example-title">
                         <h6>Ours</h6>
@@ -1060,7 +1090,7 @@
                   <div class="example_wrapper is-1" style="margin-left: 10px;">
                     <div class="example_title_wrapper">
                       <div class="text-style-example-title">
-                        <h6>RawVDemoire</h6>
+                        <h6>RawVDemoiré</h6>
                       </div>
                       <div class="text-style-example-title">
                         <h6>Ours</h6>
@@ -1130,7 +1160,7 @@
                   <div class="example_wrapper is-1" style="margin-left: 10px;">
                     <div class="example_title_wrapper">
                       <div class="text-style-example-title">
-                        <h6>RawVDemoire</h6>
+                        <h6>RawVDemoiré</h6>
                       </div>
                       <div class="text-style-example-title">
                         <h6>Ours</h6>
@@ -1198,7 +1228,7 @@
                   <div class="example_wrapper is-1" style="margin-left: 10px;">
                     <div class="example_title_wrapper">
                       <div class="text-style-example-title">
-                        <h6>RawVDemoire</h6>
+                        <h6>RawVDemoiré</h6>
                       </div>
                       <div class="text-style-example-title">
                         <h6>Ours</h6>
