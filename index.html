@@ -174,14 +174,12 @@
                   <!-- 摘要框 -->
                   <div class="abstract-box">
                     <strong>Abstract</strong>
-                    Moiré patterns caused by frequency aliasing between digital displays and camera sensors severely degrade video quality. 
-                    Compared with image demoiréing, video demoiréing is more challenging due to temporally inconsistent moiré degradations, which make neighboring frames unreliable references and easily lead to temporally inconsistent restoration. 
-                    Existing video demoiréing methods mainly improve temporal stability by aggregating adjacent frames, but they remain limited by unreliable inter-frame cues and the spatial entanglement of moiré artifacts with image structures and fine details. 
-                    To address these challenges, we propose the spectrum-guided state-space modeling for raw video demoiréing (S<sup>3</sup>RVD), which combines spectrum-guided moiré discrimination with spatial-temporal state-space modeling, enabling reliable temporal cues selection while suppressing spatially entangled moiré without explicit spatial separation. 
-                    In the high-frequency branch, the Spectrum-Modulation Spatial Temporal (SMST) group integrates direction-aware spatial-temporal scanning with spectrum-guided modulation, allowing reliable spatial-temporal detail cues to be selectively propagated while suppressing temporally unstable moiré interference. 
-                    In the low-frequency branch, the Multi-Scale Spatial Temporal (MSST) group captures multi-scale local interactions to suppress moiré disturbances entangled with structures and preserve structural consistency. 
-                    Extensive experiments demonstrate that our S<sup>3</sup>RVD achieves state-of-the-art quantitative and qualitative performance in video demoiréing, delivering effective moiré suppression and strong temporal consistency.
-                  </div>
+                    Moiré patterns caused by frequency aliasing between digital displays and camera sensors severely degrade the visual quality of camera-captured screen videos. 
+                    Existing video demoiréing methods rely on inter-frame aggregation for temporal stability, yet corrupted neighboring frames and structure-entangled moiré patterns make reliable temporal propagation and spatial suppression difficult.
+                    To address these challenges, we propose Spectrum-Guided State-Space Modeling for Raw Video Demoiréing, termed S<sup>3</sup>RVD, which combines spectrum-guided moiré discrimination with spatio-temporal state-space modeling to selectively propagate reliable temporal cues and suppress spatially entangled moiré artifacts.
+                    Specifically, the Spectrum-Modulation Spatio-Temporal (SMST) group integrates direction-aware spatio-temporal scanning with spectrum-guided modulation, enabling reliable detail cues to be propagated across frames while suppressing temporally unstable moiré interference. 
+                    The Multi-Scale Spatio-Temporal (MSST) group captures multi-scale local interactions to suppress structure-entangled moiré disturbances and preserve structural consistency. 
+                    Extensive experiments demonstrate that our S<sup>3</sup>RVD achieves state-of-the-art quantitative and qualitative performance in raw video demoiréing, delivering effective moiré suppression and strong temporal consistency.
                   <!-- /摘要框 -->
                 </div>
               </div>
@@ -206,7 +204,7 @@
           <div class="example_component">
             <div class="example_info_wrapper">
               <div class="example_info_title-wrapper">
-                <h3>Comparison of S<sup>3</sup>RVD with other methods on video datasets</h3>
+                <h3>Comparison of S<sup>3</sup>RVD with other methods on video dataset</h3>
               </div>
             </div>
 
